@@ -1,0 +1,54 @@
+body {
+    background-color: #778bbc;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.Nuevo_cliente {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.Nuevo_cliente p {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Nuevo_cliente form fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Nuevo_cliente label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.Nuevo_cliente input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+.Nuevo_cliente input[type="submit"] {
+    background-color: #033fcb;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Nuevo_cliente input[type="submit"]:hover {
+    background-color: #396ae4;
+}
+
+.Nuevo_cliente .error-message {
+    color: red;
+    margin-top: 10px;
+}
